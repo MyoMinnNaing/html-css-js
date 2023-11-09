@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+  background-color: hsl(235, 18%, 26%);
+  font-size: 16px;
+  font-family: "lato", "sans-serif";
+  margin: 0;
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 870px;
+  height: 540px;
+  background: white;
+  border-radius: 40px;
+  display: flex;
+}
+
+.left,
+.right {
+  height: 100%;
+  width: 50%;
+}
+
+.left h1 {
+  text-align: center;
+  margin-top: 80px;
+  color: hsl(234, 29%, 20%);
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+}
+h5 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+}
+
+.left p img {
+  width: 15px;
+  margin-left: 30px;
+}
+
+.right img {
+  width: 80%;
+  height: 92%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+
+  float: right;
+}
+
+label {
+  color: hsl(234, 29%, 20%);
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+
+.label {
+  margin-left: 10px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 70px;
+}
+#email {
+  margin-top: 8px;
+  width: 78%;
+  height: 8%;
+  margin-left: 30px;
+  border: 1px solid grey;
+  border-radius: 7px;
+  padding-left: 10px;
+  font-size: large;
+  font-family: "Lato", sans-serif;
+}
+
+button {
+  border-radius: 7px;
+  border: 1px solid grey;
+  width: 79.7%;
+  height: 10%;
+  margin-left: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+button:hover {
+  background-color: hsl(4, 100%, 67%);
+  box-shadow: 0 0 2em hsl(4, 100%, 67%);
+  border: none;
+}
+
+/* section start */
+section {
+  width: 400px;
+  height: max-content;
+  background-color: white;
+  border-radius: 40px;
+  font-family: "Lato", sans-serif;
+}
+
+.confirm {
+  margin-top: 40px;
+  margin-left: 10%;
+  margin-right: 6%;
+}
+
+section h1 {
+  font-size: 33px;
+  font-family: "Roboto", sans-serif;
+}
+section p {
+  color: rgb(87, 84, 84);
+}
+.confirm input {
+  border-radius: 7px;
+  border: 1px solid grey;
+  width: 79.7%;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 40px;
+}
+.confirm input:hover {
+  background-color: hsl(4, 100%, 67%);
+  box-shadow: 0 0 2em hsl(4, 100%, 67%);
+  border: none;
+}
+
+
+.confirm input {
+    border-radius: 7px;
+    border: 1px solid grey;
+    width: 79.7%;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 40px;
+  }
+  .confirm input:hover {
+    background-color: hsl(4, 100%, 67%);
+    box-shadow: 0 0 2em hsl(4, 100%, 67%);
+    border: none;
+  }
+
+.display {
+  display: none;
+}
+
+.errorClass {
+  background-color: #ffe8e6;
+}
